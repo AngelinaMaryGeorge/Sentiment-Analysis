@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+</head>
+<body>
+    <h1>Analysis Results</h1>
+    
+    <h2>Original Text:</h2>
+    <p>"{{ raw_text }}"</p>
+    
+    <hr>
+    
+    <h2>Sentiment Analysis:</h2>
+    <ul>
+        <li><b>Sentiment Category:</b> {{ sentiment_category }}</li>
+        
+        <li><b>Polarity Score:</b> {{ polarity }}</li>
+        
+        <li><b>Subjectivity Score:</b> {{ subjectivity }}</li>
+    </ul>
+
+    <hr>
+    
+    <a href="/">Analyze another text</a>
+</body>
+</html>
